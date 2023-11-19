@@ -10,17 +10,29 @@ img{
     max-width: 100%;
 }
 
+.subtitle{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+}
+
 .title-img img{
     width: 160px;
     margin-right: 160px;
+    padding: 0 4%;
 }
 
 #header{
     max-width: 960px;
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    height: 270px;
 }
 #header ul{
     display: flex;
@@ -31,4 +43,94 @@ img{
 
 #header ul img{
     width: 20px;
+}
+#header li a{
+    color: black;
+}
+#About{
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*
+works
+*/
+#Works{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#Works ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 50px 0px 0px;
+    padding: 0;
+}
+#Works li{
+    width: 31%;
+    margin-bottom: 23px;
+}
+#News{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#News dl{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+#News dt{
+    width:20%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#News dd{
+    width: 80%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    margin-left: 0; 
+    box-sizing: border-box;
+}
+#Contact{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+#Contact dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Contact dt{
+    width: 10%;
+    margin-bottom: 20px;
+}
+#Contact dd{
+    width: 80%;
+    margin-bottom: 10px;
+}
+#Contact dd input,
+#Contact dd textarea{
+    width: 100%;
+    border: solid 1px  #c8c8c8;
+    padding: 10px;
+}
+#Contact dd textarea{
+    height: 160px;
+    padding: 10px;
+}
+#Contact .button{
+    text-align: center;
+}
+#Contact .button input{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 15px 0px;
+}
+#footer{
+    background-color: black;
+    
+    color: white;
+    text-align: center;
 }
